@@ -1,0 +1,46 @@
+body {
+  font-family: "Kumbh Sans";
+  font-size: 18px;
+  background-color: hsl(185, 75%, 39%);
+  line-height: 1;
+  padding-inline: 25px;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url("../images/bg-pattern-bottom.svg");
+  background-position: -250px -480px, 700px 400px;
+  background-repeat: no-repeat, no-repeat;
+}
+.card {
+  width: 350px;
+}
+.card-bottom > div > div > div > span {
+  color: hsl(227, 10%, 46%);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.card-bottom > div > div > .number {
+  color: rgb(62, 61, 61);
+  font-weight: 700;
+}
+h1 {
+  color: rgb(62, 61, 61);
+  font-size: 18px;
+  font-weight: 700;
+}
+.top-part > h1 > span {
+  padding-left: 5px;
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+.top-part > p {
+  color: hsl(227, 10%, 46%);
+  font-size: 14px;
+}
+hr {
+  border-color: hsl(227, 10%, 46%);
+}
+@media (max-width: 550px) {
+  body {
+    background-position: -700px -500px, 150px 400px;
+  }
+}
